@@ -81,5 +81,19 @@ Video br. 2
 
 
 Video br.3
+63. otvaramo i uredujemo style.css general styling
+64. uredujemo body element
+65. dodajemo utility class za .container 
+65. dodajemo klasu .even-columns
+66. dodajemo @media upit (min-width: 50em)
+67. unutar @media upita dodajemo .even-columns klasu
+68. dodajemo padding block klase
+69. sa | (pipe) razdvajamo klasu elementa od utility klase
+70. dodajemo .button klasu
+71. dodajemo klasu za button:hover i button:focus
 
 
+
+
+Video br.4
+72. 
