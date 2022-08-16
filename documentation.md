@@ -96,4 +96,16 @@ Video br.3
 
 
 Video br.4
-72. 
+72. dodajemo button element sa klasom mobile-nav-toggle
+73. dodajemo span element sa klasom visually-hidden
+74. dodajemo dva img elementa sa klasama hamburger i close
+75. u style.css fajlu uredujemo klase za navigaciju
+76. dodajemo @media upit
+77. otvaramo i uredujemo main.js fajl
+
+
+
+
+Video br.5
+
+
