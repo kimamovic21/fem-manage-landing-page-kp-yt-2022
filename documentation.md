@@ -107,5 +107,11 @@ Video br.4
 
 
 Video br.5
+78. dodavanje varijabli za prostor html elementima
+79. unutar li elemenata dodajemo div elemente
+
+
+
+
 
 
