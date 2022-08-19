@@ -112,6 +112,9 @@ Video br.5
 
 
 
-
+Video br.6 
+80. dodajemo CTA klasu
+81. dodajemo CTA before pseudoklasu
+82. dodajemo @media upit za CTA klasu
 
 
