@@ -118,3 +118,16 @@ Video br.6
 82. dodajemo @media upit za CTA klasu
 
 
+
+Video br. 7
+83. dodavanje elemenata za footer (podnozje) stranice
+84. dodavanje klasa za footer elemente u style.css fajlu
+85. uredujemo klasu .social-list
+86. uredujemo klasu .social-icon
+87. dodajemo grid za footer div element
+88. dodajemo media upit za footer elemente
+
+
+
+Video br. 8
+
