@@ -130,4 +130,12 @@ Video br. 7
 
 
 Video br. 8
-
+89. dodajemo i uredujemo klasu za numbered-items
+90. (dodajemo ::marker numbered-items klasi)
+91. dodajemo counter za numbered-items klasu
+92. dodajemo i uredujemo li::before
+93. uredujemo div i p element u numbered-items div elementu
+94. dodajemo media upit za p element u numbered-items div-u
+95. dodajemo klase elementima u numbered-items div elementu
+96. uredujemo naslov i paragraf unutar numbered-items klase
+97. 
