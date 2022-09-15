@@ -138,4 +138,11 @@ Video br. 8
 94. dodajemo media upit za p element u numbered-items div-u
 95. dodajemo klase elementima u numbered-items div elementu
 96. uredujemo naslov i paragraf unutar numbered-items klase
-97. 
+
+
+
+Video br. 9
+97. dodavanje koda za image carousel
+98. stiliziranje carousel u css-u
+99. dodavanje koda za carousel u js fajl
+
