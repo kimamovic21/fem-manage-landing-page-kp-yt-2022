@@ -10,5 +10,8 @@
   },
   "devDependencies": {
     "vite": "^3.0.0"
+  },
+  "dependencies": {
+    "a11y-slider": "^0.4.15"
   }
 }

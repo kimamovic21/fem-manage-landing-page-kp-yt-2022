@@ -146,3 +146,9 @@ Video br. 9
 98. stiliziranje carousel u css-u
 99. dodavanje koda za carousel u js fajl
 
+
+
+
+Video br. 10.
+100. izmjena hamburger dugmeta
+101. izmjena koda za img carousel

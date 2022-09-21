@@ -212,11 +212,12 @@ p[data-width="wide"] {
 @media (max-width: 50em) {
   .primary-navigation {
     display: none;
-
+    z-index: 1000;
     position: fixed;
     padding: var(--size-700);
     inset: 7rem var(--size-400) auto;
-    max-width: 25rem;
+    max-width: 50rem;
+    height: 20rem;
     margin-left: auto;
     background: var(--clr-neutral-100);
     border-radius: var(--size-100);
@@ -251,10 +252,17 @@ p[data-width="wide"] {
     background: transparent;
     border: 0;
     padding: 0.5em;
+    width: 1.6em;
+    aspect-ratio: 1;
+
+    background-image: url(images/icon-hamburger.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
   }
 
-  .mobile-nav-toggle .icon-close {
-    display: none;
+  .mobile-nav-toggle[aria-expanded="true"] {
+    background-image: url("images/icon-close.svg");
   }
 }
 
@@ -453,7 +461,7 @@ input:where([type="text"], [type="email"], ) {
 
 .slider {
   display: flex;
-  gap: var(--size-600);
+  gap: var(--size-200);
   list-style: none;
 }
 
@@ -477,13 +485,13 @@ input:where([type="text"], [type="email"], ) {
     margin-inline: 0;
   }
   .slider > * {
-    width: 50%;
+    width: 40%;
   }
 }
 
 @media (min-width: 50em) {
   .slider > * {
-    width: 35%;
+    width: 20%;
   }
 }
 
@@ -525,6 +533,26 @@ input:where([type="text"], [type="email"], ) {
 
 .a11y-slider-dots li button.active {
   background: var(--clr-accent-400);
+}
+
+/* image with blob bg */
+
+.image-with-blob-bg {
+  /* position: relative; */
+  order: 0;
+}
+
+.image-with-blob-bg::before {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  right: 0;
+  top: 0;
+  width: 50%;
+  aspect-ratio: 1 / 1.3;
+  background-image: url("images/bg-tablet-pattern.svg");
+  background-repeat: no-repeat;
+  background-position: bottom left;
 }
 
 /* Utility classes */
